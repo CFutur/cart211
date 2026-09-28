@@ -36,6 +36,10 @@ header h1 {
     margin-bottom: 5px;
 }
 
+header img {
+    width: 100%;
+}
+
 footer {
     margin-top: 20px;
     min-height: 30px;
@@ -43,7 +47,4 @@ footer {
     font-weight: lighter;
     text-align: right;
     font-style: italic;
-
-
-
 }
