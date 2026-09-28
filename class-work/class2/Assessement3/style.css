@@ -18,3 +18,32 @@ nav {
     line-height: 30px;
     position: fixed;
 }
+
+/**
+nav a{} would have targeted the <a>'s in our navigation
+*/
+
+#wrapper {
+    margin-top: 50px;
+    float: right;
+    width: 60%;
+    margin-right: 50px;
+}
+
+header h1 {
+    text-align: right;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    min-height: 30px;
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: right;
+    font-style: italic;
+
+
+
+}
