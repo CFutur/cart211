@@ -61,9 +61,16 @@ header img {
 .books {
     display: grid;
     grid-template-columns: auto auto auto;
+    max-width: 100%;
+    height: auto;
 }
 
-.books img {}
+.books img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
 
 footer {
     margin-top: 20px;
