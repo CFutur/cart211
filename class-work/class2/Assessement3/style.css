@@ -36,6 +36,23 @@ header h1 {
     margin-bottom: 5px;
 }
 
+header h2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: right;
+    font-size: 20px;
+    color: darkgray;
+}
+
+header h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 20px;
+    color: darkgray;
+
+}
+
 header img {
     width: 100%;
 }
