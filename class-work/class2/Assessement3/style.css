@@ -22,6 +22,17 @@ nav {
     position: fixed;
 }
 
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: block;
+}
+
+nav a:hover {
+    color: darkgray;
+}
+
 /**
 nav a{} would have targeted the <a>'s in our navigation
 */
@@ -92,6 +103,16 @@ section {
 article figure figcaption {
     margin-top: 5px;
     font-size: 12px;
+}
+
+article h3 {
+    margin-bottom: 10px;
+    color: darkgray;
+}
+
+article p:last-child {
+    margin-bottom: 80px;
+
 }
 
 
