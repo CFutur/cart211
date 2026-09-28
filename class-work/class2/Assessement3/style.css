@@ -2,6 +2,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*
+how to comment :)
+*/
 a {
     color: black;
     text-decoration: none;
@@ -55,22 +58,43 @@ main h3 {
 
 header img {
     width: 100%;
+    height: 100%;
 }
 
+section {
+    margin-bottom: 30px;
+    text-align: justify;
+}
 
 .books {
     display: grid;
     grid-template-columns: auto auto auto;
     max-width: 100%;
     height: auto;
+    gap: 16px;
 }
 
 .books img {
     display: block;
     width: 100%;
     height: auto;
-
 }
+
+.books>div {
+    text-align: center;
+    padding: 10px;
+}
+
+.books figure {
+    margin: 0;
+}
+
+article figure figcaption {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+
 
 footer {
     margin-top: 20px;
