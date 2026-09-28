@@ -14,8 +14,8 @@ nav {
     margin-left: 50px;
     margin-top: 50px;
     float: left;
-    width: 15%;
-    line-height: 30px;
+    width: 25%;
+    line-height: 10px;
     position: fixed;
 }
 
@@ -44,7 +44,7 @@ header h2 {
     color: darkgray;
 }
 
-header h3 {
+main h3 {
     margin-top: 0px;
     margin-bottom: 10px;
     text-align: left;
