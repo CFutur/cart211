@@ -57,6 +57,14 @@ header img {
     width: 100%;
 }
 
+
+.books {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.books img {}
+
 footer {
     margin-top: 20px;
     min-height: 30px;
