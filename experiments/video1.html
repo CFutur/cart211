@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snow video</title>
 
+
+    /**/
+
+    /*-------------------
+
+    -------------------*/
+
+    <!---->
     <style>
         body {
             font-family: 'Times New Roman', Times, serif;
@@ -27,10 +35,86 @@
             cursor: pointer;
             /*Changes the mouse pointer to a hand */
         }
+
+        /*-------------------
+        General video player styles 
+        -------------------*/
+
+        /*Applies these styles to the video player*/
+        video {
+            display: block;
+            width: 100%;
+            max-width: 100%;
+            aspect-ratio: 16 / 9;
+            height: auto;
+            background-color: blueviolet;
+            transition: width 0.3s ease;
+            /*Makes changes in the video appear smoothly*/
+        }
+
+
+        /*-------------------
+        Different video sizes
+        -------------------*/
+
+        /*Small video: 320px wide*/
+        video.small {
+            width: 320px;
+        }
+
+        /*medium video: 480*/
+        video.medium {
+            width: 480px;
+        }
+
+        /*720px*/
+        video.large {
+            width: 720px;
+        }
+
+        /*full*/
+        video.full {
+            width: 100%;
+        }
     </style>
 </head>
 
 <body>
+    <!---->
+    <h1>Snowy video</h1>
+    <p>Watch the video</p>
+
+
+    /*--------------------------
+    Video size controls buttons
+    --------------------------*/
+
+    <!--Group buttons together-->
+    <div class="size-controls">
+        <!--Tells visitors what the buttons control-->
+        <strong> Video size:</strong>
+
+        <!--When clicked, calls the javascript function and changes the video width to 320px-->
+        <button onclick="changeSize" ('small')>
+            Small
+        </button>
+
+        <!--changes the video width to 480px-->
+        <button onclick="changeSize" ('medium')>
+            Medium
+        </button>
+
+        <!--changes the video width to 720px-->
+        <button onclick="changeSize" ('large')>
+            Large
+        </button>
+
+        <!--changes the video width to available content width-->
+        <button onclick="changeSize" ('full')>
+            Full Width
+        </button>
+
+    </div>
 
 </body>
 
