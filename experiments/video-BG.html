@@ -56,15 +56,41 @@
             position: relative;
             z-index: 1;
 
-            min-height: 100vh;
             /*100% of viewport height*/
+            min-height: 100vh;
             display: flex;
+            flex-direction: column;
+            /*centers content vertically*/
+            justify-content: center;
+            /*centers content horizontally*/
+            align-items: center;
+        }
+
+        h1 {
+            /*allows font size to adjust according to screen size while keeping it between a min and a max. */
+            font-size: clamp(2rem, 5vw, 4rem);
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.2rem;
         }
     </style>
 </head>
 
 <body>
+    <!--BG video that plays automatically and repeats-->
+    <video class="background-video" autoplay muted loop playsinLine aria-hidden="true" tabindex="-1">
+        <source src="BG-video.mp4" type="video/mp4"> ; Your browser does not support background video
+    </video>
 
+    <!--Darkens the BG video so the text is visible-->
+    <div class="overlay"></div>
+
+    <main class="content">
+        <h1>Abstract video</h1>
+        <p>This is an example of background video</p>
+    </main>
 </body>
 
 </html>
