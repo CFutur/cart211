@@ -4,11 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SNOWY VIDEO!!!</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+        }
+
+        /*style the video player*/
+        video {
+            display: block;
+            /*Places the video on its own line*/
+            width: 100%;
+            /*Makes the video fill the available content*/
+            aspect-ratio: 16 / 9;
+            /*Sets a standard widescreen video ratio*/
+            height: auto;
+            /*Allows the browser to calculate the height automatically*/
+            background-color: aquamarine;
+            /*Displays an aquamarine background while the video loads*/
+        }
+    </style>
 </head>
 
 <body>
+    <h1>Snowy Video</h1>
+    <p>Watch the Video Below</p>
 
+    <!--Creates a video player with built-in playback controls-->
+    <video constrols>
+        <!--Loads the mp4 video file frpm the same folder as this html file-->
+        <source src="video.mp4" type="video/mp4">
+        <!--Displays this message if the browser cannot play the video-->
+
+    </video>
 </body>
 
 </html>
