@@ -298,7 +298,7 @@ nav a:hover {
     text-align: right;
     /* Align the active menu item to the right. */
 
-    color: gray;
+    color: darkgray;
     /* Give the active item a gray color. */
 }
 
