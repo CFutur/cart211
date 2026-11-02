@@ -60,7 +60,7 @@ body {
     left: 10px;
     /* Place the text 10px from the left edge. */
 
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(247, 21, 21, 0.7);
     /* Use a black background with 70% opacity. */
 
     color: white;
@@ -117,7 +117,7 @@ body {
     display: flex;
     /* Arrange menu items in a row. */
 
-    background: white;
+    background: rgb(255, 255, 255);
     /* Give the menu a white background. */
 
     justify-content: space-around;
@@ -154,7 +154,7 @@ body {
     font-size: 2em;
     /* Make the hamburger icon larger. */
 
-    color: gray;
+    color: rgb(204, 255, 174);
     /* Set the icon color to gray. */
 }
 
@@ -241,7 +241,7 @@ header h3 {
     font-size: 20px;
     /* Set the font size to 20 pixels. */
 
-    color: darkgray;
+    color: rgb(255, 198, 233);
     /* Use dark gray text. */
 }
 
