@@ -277,7 +277,7 @@ nav a {
     text-decoration: none;
     /* Remove the link underline. */
 
-    color: black;
+    color: rgb(191, 157, 243);
     /* Make links black. */
 
     font-weight: bold;
@@ -285,7 +285,7 @@ nav a {
 }
 
 nav a:hover {
-    color: darkgrey;
+    color: rgb(255, 249, 164);
     /* Change the link color when hovered over. */
 }
 
@@ -298,7 +298,7 @@ nav a:hover {
     text-align: right;
     /* Align the active menu item to the right. */
 
-    color: darkgray;
+    color: rgb(172, 205, 255);
     /* Give the active item a gray color. */
 }
 
