@@ -20,6 +20,10 @@ we did four page website and added a bit of our own design into it
 
 ### Third class:
 
-We did some pages about Ocean Vuong and then we had to make sure it was accesible on mobile 
+We did some pages about Ocean Vuong and then we had to make sure it was accessible on mobile 
 
 [second web](class-work/class2/Assessement3/bio.html)
+
+### i forgot which class...
+
+[third web](class-work/class3/index.html)
