@@ -34,7 +34,7 @@ body {
     display: inline-block;
     /* Allow figures to sit alongside one another. */
 
-    cursor: crosshair;
+    cursor: text;
     /* Show a hand cursor when hovering over the figure. */
 }
 
@@ -61,11 +61,11 @@ body {
     left: 10px;
     /* Place the text 10px from the left edge. */
 
-    background-color: rgba(0, 0, 0, 0.7);
+    /* background-color: rgba(255, 3, 3, 0.7); */
     /* Use a black background with 70% opacity. */
 
-    color: white;
-    /* Make the text white. */
+    /* color: white;
+    Make the text white. */
 
     padding: 8px;
     /* Add space inside the text box. */
@@ -103,11 +103,82 @@ body {
     transform: scale(1.05);
     /* Enlarge the image by 5%. */
 
-    transition: all 0.3s ease-in-out;
+    transition: all 1s ease-in-out;
     /* Animate property changes over 0.3 seconds.
        For smooth transitions in both directions, it is
        usually better to put this in the normal .im rule. */
 }
+
+.im1 .hover-text {
+    background-color: #ff7676;
+    color: rgb(0, 0, 0);
+}
+
+.im2 .hover-text {
+    background-color: #ffaa79;
+    color: rgb(0, 0, 0);
+}
+
+.im3 .hover-text {
+    background-color: #fff78c;
+    color: rgb(0, 0, 0);
+}
+
+.im4 .hover-text {
+    background-color: #abfc7c;
+    color: rgb(0, 0, 0);
+}
+
+.im5 .hover-text {
+    background-color: #9dff89;
+    color: rgb(0, 0, 0);
+}
+
+.im6 .hover-text {
+    background-color: #9effca;
+    color: rgb(0, 0, 0);
+}
+
+.im7 .hover-text {
+    background-color: #87fcf6;
+    color: rgb(0, 0, 0);
+}
+
+.im8 .hover-text {
+    background-color: #90b7ff;
+    color: rgb(0, 0, 0);
+}
+
+.im9 .hover-text {
+    background-color: #7292fa;
+    color: rgb(0, 0, 0);
+}
+
+.im10 .hover-text {
+    background-color: #ae8cff;
+    color: rgb(0, 0, 0);
+}
+
+.im11 .hover-text {
+    background-color: #ce85f8;
+    color: rgb(0, 0, 0);
+}
+
+.im12 .hover-text {
+    background-color: #ed82f7;
+    color: rgb(0, 0, 0);
+}
+
+.im13 .hover-text {
+    background-color: #f589bf;
+    color: rgb(0, 0, 0);
+}
+
+.im14 .hover-text {
+    background-color: #1877f2;
+    color: rgb(0, 0, 0);
+}
+
 
 
 /* =====================================================
@@ -359,7 +430,7 @@ footer a {
     text-decoration: underline;
     /* Remove underlines from footer links. */
 
-    color: black;
+    color: rgb(46, 38, 119);
     /* Make footer links black. */
 }
 
@@ -596,12 +667,12 @@ Social media container */
 
     justify-content: center;
     /* Center the icons horizontally. */
-    align-items: center;
+    align-items: flex-start;
 
     flex-wrap: wrap;
     /* Allow icons to move onto another line when needed. */
 
-    gap: 10px;
+    gap: 60px;
     /* Add 10px between the icons. */
 
     width: 100%;
@@ -732,7 +803,7 @@ Social media container */
         text-decoration: none;
         /* Remove link underlines. */
 
-        color: gray;
+        color: rgb(255, 248, 144);
         /* Set links to gray. */
 
         background-color: transparent;
@@ -759,7 +830,7 @@ Social media container */
         height: 100%;
         /* Fill the available viewport height. */
 
-        background: white;
+        background: rgb(255, 255, 255);
         /* Use a white background. */
 
         flex-direction: column;
@@ -789,17 +860,18 @@ Social media container */
         position: absolute;
         /* Allow precise positioning. */
 
-        top: 20px;
+        top: -30px;
         /* Place it 20px from the top. */
 
-        right: 20px;
+        right: 200px;
         /* Place it 20px from the right. */
 
-        font-size: 2em;
+        font-size: 6em;
         /* Make the icon larger. */
 
-        color: gray;
+        color: rgb(45, 41, 255);
         /* Set the icon color to gray. */
+        background-color: transparent;
     }
 
     /* The original CSS sets the hamburger to block here.
@@ -814,7 +886,9 @@ Social media container */
         display: flex;
         /* Make the expanded menu visible using Flexbox. */
 
-        flex-direction: column;
+        padding-inline: 2em;
+
+        flex-direction: column-reverse;
         /* Stack the links vertically. */
 
         justify-content: center;
@@ -822,7 +896,7 @@ Social media container */
 
         align-items: center;
         /* Center the links horizontally. */
-
+        font-size: 2em;
         width: 100%;
         /* Fill the screen width. */
 
@@ -838,7 +912,7 @@ Social media container */
         left: 0;
         /* Start at the left of the screen. */
 
-        background-color: white;
+        background-color: rgb(142, 229, 255);
         /* Give the menu a white background. */
 
         z-index: 1000;
