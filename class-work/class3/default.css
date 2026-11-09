@@ -257,11 +257,13 @@ h1 {
     text-align: left;
     /* Align the main heading to the left. */
 
-    font-size: 4em;
+    font-size: 9em;
     /* Make the heading four times the base font size. */
 
     margin-bottom: 1em;
     /* Add space below the heading. */
+    color: #1877f2;
+    font-style: italic;
 }
 
 header h2 {
