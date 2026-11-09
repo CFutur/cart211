@@ -28,9 +28,9 @@ We did some pages about Ocean Vuong and then we had to make sure it was accessib
 
 [background video](experiments/video-BG.html)
 
-[](experiments/video.html)
+[whatever](experiments/video.html)
 
-[third web](experiments/video1.html)
+[whatever](experiments/video1.html)
 
 ### i forgot which class...
 
