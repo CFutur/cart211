@@ -18,6 +18,7 @@ body {
 
     margin: 0;
     /* Remove the browser's default outer page margins. */
+    background-color: #fffda0;
 }
 
 
@@ -33,7 +34,7 @@ body {
     display: inline-block;
     /* Allow figures to sit alongside one another. */
 
-    cursor: pointer;
+    cursor: crosshair;
     /* Show a hand cursor when hovering over the figure. */
 }
 
@@ -114,16 +115,16 @@ body {
    ===================================================== */
 
 .menu1 {
-    display: inline-block;
+    display: inline;
     /* Arrange menu items in a row. */
 
-    background: rgb(255, 255, 255);
+    background: rgb(156, 255, 209);
     /* Give the menu a white background. */
 
     justify-content: space-around;
     /* Distribute space around the menu items. */
 
-    align-items: left;
+    align-items: last baseline;
     /* Vertically center the menu items. */
 }
 
@@ -355,7 +356,7 @@ footer {
 }
 
 footer a {
-    text-decoration: none;
+    text-decoration: underline;
     /* Remove underlines from footer links. */
 
     color: black;
