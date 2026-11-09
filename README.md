@@ -24,6 +24,14 @@ We did some pages about Ocean Vuong and then we had to make sure it was accessib
 
 [second web](class-work/class2/Assessement3/bio.html)
 
+### two experiments we made for videos (pratical for final project)
+
+[background video](experiments/video-BG.html)
+
+[](experiments/video.html)
+
+[third web](experiments/video1.html)
+
 ### i forgot which class...
 
 [third web](class-work/class3/index.html)
