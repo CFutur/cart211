@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background video</title>
+
+    <style>
+        /*Remove the default spacing and make the pages fill the screen*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /*sets the main page dimensions and default font*/
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            min-height: 100vh;
+            color: blanchedalmond;
+        }
+
+        /*Position the video on the left side*/
+        .ad-video1 {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 20em;
+            height: 100%;
+
+            object-fit: cover;
+            object-position: center;
+
+            z-index: -1s;
+            /*places the video behind the content*/
+        }
+
+        /* .background-video2 {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 10em;
+            height: 100%;
+
+            object-fit: cover;
+            object-position: right;
+
+            z-index: -1s;
+            /*places the video behind the content*/
+        /* } */
+
+        */
+
+        /*adds a dark overlay to make text easier to read*/
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+
+            background-color: rgba(0, 0, 0, 0.4);
+            /*the last value controls darkness: 0 is transparent, 1 is opaque.*/
+
+            z-index: 0;
+        }
+
+        /*position the website content above the video and overlay*/
+        .content {
+            position: relative;
+            z-index: 1;
+
+            /*100% of viewport height*/
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            /*centers content vertically*/
+            justify-content: center;
+            /*centers content horizontally*/
+            align-items: center;
+        }
+
+        h1 {
+            /*allows font size to adjust according to screen size while keeping it between a min and a max. */
+            font-size: clamp(2rem, 5vw, 4rem);
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!--BG video that plays automatically and repeats-->
+    <video class="ad-video1" autoplay muted loop playsinLine aria-hidden="true" tabindex="-1">
+        <source src="assets/first-ad.mp4" type="video/mp4"> ; Your browser does not support background video
+    </video>
+
+    <div class="ads">
+        <figure>
+            <img src="assets/phone-ad.jpeg" alt="Phone Ad" loading="lazy">
+            <figcaption>Phone ads</figcaption>
+        </figure>
+
+    </div>
+    <!-- <video class="background-video2" autoplay muted loop playsinLine aria-hidden="true" tabindex="-1">
+        <source src="abstract-video.mp4" type="video/mp4"> ; Your browser does not support background video
+    </video> -->
+
+    <!--Darkens the BG video so the text is visible-->
+    <div class="overlay"></div>
+
+    <main class="content">
+        <h1>Abstract video</h1>
+        <p>This is an example of background video</p>
+    </main>
+</body>
+
+</html>
