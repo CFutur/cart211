@@ -7,12 +7,12 @@
     <title>Background video</title>
 
     <style>
-        /*Remove the default spacing and make the pages fill the screen*/
+        /* Remove the default spacing and make the pages fill the screen
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-        }
+        } */
 
         /*sets the main page dimensions and default font*/
         body {
@@ -81,12 +81,6 @@
             align-items: center;
         }
 
-        h1 {
-            /*allows font size to adjust according to screen size while keeping it between a min and a max. */
-            font-size: clamp(2rem, 5vw, 4rem);
-            margin-bottom: 15px;
-        }
-
         p {
             font-size: 1.2rem;
         }
@@ -95,13 +89,13 @@
 
 <body>
     <!--BG video that plays automatically and repeats-->
-    <video class="ad-video1" autoplay muted loop playsinLine aria-hidden="true" tabindex="-1">
+    <!-- <video class="ad-video1" autoplay muted loop playsinLine aria-hidden="true" tabindex="-1">
         <source src="assets/first-ad.mp4" type="video/mp4"> ; Your browser does not support background video
-    </video>
+    </video> -->
 
     <div class="ads">
         <figure>
-            <img src="assets/phone-ad.jpeg" alt="Phone Ad" loading="lazy">
+            <img src="assets/phone-ad.jpeg" class="ad1" alt="Phone Ad" loading="lazy">
             <figcaption>Phone ads</figcaption>
         </figure>
 

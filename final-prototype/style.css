@@ -1,13 +1,28 @@
+.content h1 {
+    /*allows font size to adjust according to screen size while keeping it between a min and a max. */
+    font-size: clamp(2rem, 5vw, 4rem);
+    margin-bottom: 15px;
+}
+
 .ads {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     max-width: 100%;
     height: auto;
-    gap: 16px;
+    gap: 1px;
 }
 
 .ads img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.ads>div {
+    text-align: center;
+    padding: 10px;
+}
+
+.ads figure {
+    margin: 10;
 }
