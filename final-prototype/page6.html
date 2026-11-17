@@ -27,7 +27,38 @@
 
 </head>
 
-<body>
+<!-- <body> -->
+
+<body onload="p.showModal()">
+
+    <dialog id="p">
+        <p>Do you want to pay to have less images?</p>
+        <button onclick="getAnswer('yes')">Yes</button>
+        <button onclick="getAnswer('no')">No</button>
+    </dialog>
+
+
+    <script>
+        // p.onclose = () => alert("You clicked: " + p.returnValue);
+
+        function getAnswer(answer) {
+            if (answer == 'yes') {
+                //alert("You clicked: " + answer);
+                document.querySelector('.im1 img').style.display = 'none';
+                document.querySelector('.im2 img').style.display = 'none';
+                document.querySelector('.im3 img').style.display = 'none';
+                document.querySelector('.im4 img').style.display = 'none';
+                document.querySelector('.im5 img').style.display = 'none';
+                document.querySelector('.im6 img').style.display = 'none';
+
+            }
+            p.close();
+        }
+    </script>
+
+
+
+
     <!--Navigation that is installed just for me to access all my pages easier before the "next page" button i tend to implement at the bottom of each page. -->
     <nav>
         <a href="page1.html">Page 1</a><br>
@@ -154,6 +185,7 @@
         </div>
 
 
+
         <!--Main Content-->
         <main>
             <article>
@@ -230,7 +262,9 @@
                 </p>
             </article>
 
-
+            <div class="nextPage">
+                <a href="page7.html">Page 7</a>
+            </div>
         </main>
         <!--Footer-->
         <footer>

@@ -1,5 +1,5 @@
 body {
-    font-family: "Vampiro One", system-ui;
+    font-family: "Vampiro One", times new roman;
     text-shadow: 2px 2px rgb(255, 255, 255);
     background: rgb(255, 247, 174)
 }
@@ -63,7 +63,7 @@ nav a:hover {
 .im4 img {
     position: absolute;
     width: 150px;
-    height: 400px;
+    height: auto;
     right: 20px;
     margin-top: 15%;
 }
@@ -223,7 +223,7 @@ footer {
     font-style: italic;
 }
 
-/* @media (max-width: 480px) {
+@media (max-width: 375px) {
 
 
     .wrapper {
@@ -244,4 +244,4 @@ footer {
 
         gap: 16px;
     }
-} */
+}
