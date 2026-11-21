@@ -37,18 +37,18 @@ nav a:hover {
 }
 
 .im1 img {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 20px;
+    position: fixed;
+    width: auto;
+    height: auto;
+    left: 100%;
     margin-top: 35%;
 }
 
 .im2 img {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    right: 20px;
+    position: fixed;
+    width: auto;
+    height: auto;
+    right: 0%;
     margin-top: 10px;
 }
 
@@ -228,7 +228,7 @@ footer {
 
     .wrapper {
         margin-top: 500px;
-        position: relative;
+        position: fixed;
         width: 90%;
         margin: 0 auto;
         float: none;
@@ -240,7 +240,9 @@ footer {
     }
 
     .ads {
-        grid-template-columns: auto auto;
+        position: absolute;
+        width: 50%;
+        height: 50%;
 
         gap: 16px;
     }
